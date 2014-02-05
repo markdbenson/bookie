@@ -1,4 +1,10 @@
-# Booky - The no-hassle bookmarklet generator.
+# Booky
+
+Booky is a no-hassle bookmarklet generator.
+
+A bookmarklet is a small software application stored as a bookmark in a web browser, which allows a user to interact with the currently-loaded web page in some way.
+
+Write a bookmarklet is cumbersome because it lacks a good source code editing environment. Booky makes this easier by allowing you to write javascript using your favorite editor. Then, Booky converts that javascript code into a version that can be simply copy-pasted right into a browser bookmark in an easy way. 
 
 ## Installation
 

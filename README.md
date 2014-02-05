@@ -8,7 +8,9 @@ Write a bookmarklet is cumbersome because it lacks a good source code editing en
 
 ## Installation
 
-No installation. Just make sure you have a recent version of Perl.
+Make sure you have a recent version of Perl installed. Then, download this project and follow the usage instructions below. To download this project, do this:
+
+    $ git clone https://github.com/markdbenson/booky.git
 
 ## Usage
 

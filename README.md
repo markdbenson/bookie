@@ -1,22 +1,22 @@
-# Booky
+# Bookie 
 
-Booky is a no-hassle bookmarklet generator.
+Bookie is a no-hassle bookmarklet generator.
 
 A bookmarklet is a small software application stored as a bookmark in a web browser, which allows a user to interact with the currently-loaded web page in some way.
 
-Write a bookmarklet is cumbersome because it lacks a good source code editing environment. Booky makes this easier by allowing you to write javascript using your favorite editor. Then, Booky converts that javascript code into a version that can be simply copy-pasted right into a browser bookmark in an easy way. 
+Write a bookmarklet is cumbersome because it lacks a good source code editing environment. Bookie makes this easier by allowing you to write javascript using your favorite editor. Then, Bookie converts that javascript code into a version that can be simply copy-pasted right into a browser bookmark in an easy way. 
 
 ## Installation
 
 Make sure you have a recent version of Perl installed. Then, download this project and follow the usage instructions below. To download this project, do this:
 
-    $ git clone https://github.com/markdbenson/booky.git
+    $ git clone https://github.com/markdbenson/bookie.git
 
 ## Usage
 
-Customize booky.js, then run booky.pl on it. Example:
+Customize bookie.js, then run bookie.pl on it. Example:
 
-    $ vi booky.js
+    $ vi bookie.js
     $ make
 
 At this point, the bookmarklet will be automatically copied to your
@@ -25,7 +25,7 @@ in your browser. For Chrome, do this:
 
     1. Create a bookmark
     2. Edit the bookmark
-    3. Past the contents that Booky generates into the URL field
+    3. Past the contents that Bookie generates into the URL field
     4. Click save
 
 ## License and Copyright

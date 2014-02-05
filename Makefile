@@ -1,5 +1,5 @@
 all:
-	perl booky.pl booky.js
+	perl bookie.pl bookie.js
 
 .PHONY: bookmarklet
 

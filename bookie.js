@@ -7,7 +7,9 @@ var date = ymd(new Date());
 var time = hms(new Date());
 var categories = "notabene";
 var layout = "post";
-var dir = "~/vanilladraft/_source/notabene";
+var basedir = "~/vanilladraft/";
+var filedir = "_source/notabene/";
+var file = "".concat(filedir, date, "-", slug, ".md");
 
 function ymd(date) {
     var d = date.getDate();
@@ -42,7 +44,7 @@ try {
     selection ="";
 }
 
-cat = "".concat("cd ", dir, " && cat > ", date, "-", slug, ".md << EOF\n");
+cat = "".concat("cd ", basedir, " && cat > ", file, " << EOF\n");
 
-alert(cat.concat("---\nlayout: ", layout, "\ntitle: \"",title,"\"\ndate: ", date, " ", time, "\ncategories: ", categories, "\nlink: ", url, "\n---\n\n> ", selection, "\n\nEOF\nvi ", date, "-", slug, ".md"));
+alert(cat.concat("---\nlayout: ", layout, "\ntitle: \"",title,"\"\ndate: ", date, " ", time, "\ncategories: ", categories, "\nlink: ", url, "\n---\n\n> ", selection, "\n\nEOF\nvi ", file));
 

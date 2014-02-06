@@ -1,10 +1,14 @@
 # Bookie 
 
-Bookie is a no-hassle bookmarklet generator.
+**Bookie is a no-hassle bookmarklet generator. Write your bookmarklets in plain javascript, and use Bookie to wrap it up and place the contents on your clipboard, ready for easy pasting.**
 
-A bookmarklet is a small software application stored as a bookmark in a web browser, which allows a user to interact with the currently-loaded web page in some way.
+A bookmarklet is a bit of javascript stored as a bookmark in a web browser, which allows a user to interact with the currently-loaded web page in some way by clicking on the bookmark.
 
-Write a bookmarklet is cumbersome because it lacks a good source code editing environment. Bookie makes this easier by allowing you to write javascript using your favorite editor. Then, Bookie converts that javascript code into a version that can be simply copy-pasted right into a browser bookmark in an easy way. 
+Writing a bookmarklet is cumbersome because it lacks a good source code editing environment. Bookie makes this easier by allowing you to write javascript using your favorite editor.
+
+Bookie then converts the javascript code into a version that can be simply copy-pasted right into a browser bookmark in an easy way. 
+
+Download it on [github](https://github.com/markdbenson/bookie).
 
 ## Installation
 
